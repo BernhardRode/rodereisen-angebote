@@ -19,7 +19,8 @@
         padding: 0;
       }
       body {
-        display: grid;
+        display: flex;
+        flex-direction: column;
         color: #1d3a8f;
         font-family: "Raleway", sans-serif;
       }
@@ -29,10 +30,10 @@
       }
       header {
         flex: 1;
+        height: 150px;
       }
       .navbar {
-        height: 100px;
-        width: 1024;
+        width: 1180px;
         display: flex;
         justify-content: space-between;
         margin: 0 auto;
@@ -50,7 +51,8 @@
         font-weight: 400;
         line-height: 20px;
         margin-left: 10px;
-        margin-top: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
       }
       .navbar .navbar-brand-logo .brand span {
         font-size: 15px;
@@ -79,7 +81,7 @@
       }
 
       .content {
-        height: calc(100vh-100px);
+        height: calc(100vh-180px);
       }
       iframe {
         width: 100%;
